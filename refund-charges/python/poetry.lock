@@ -360,14 +360,14 @@ files = [
 
 [[package]]
 name = "interval-sdk"
-version = "0.37.0.dev3"
+version = "0.37.1.dev0"
 description = "Python SDK for Interval."
 category = "main"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "interval_sdk-0.37.0.dev3-py3-none-any.whl", hash = "sha256:bc90c616dc54607229e9635d85c086c5cd0e37b02069327a739a79ac0fc487ef"},
-    {file = "interval_sdk-0.37.0.dev3.tar.gz", hash = "sha256:80536b32e95225b5561c500ddb8b3ec4d6390f007946d09624b752ab1e005955"},
+    {file = "interval_sdk-0.37.1.dev0-py3-none-any.whl", hash = "sha256:5e32e8e8d57a29b878bdc79bbaba8774681b2aac611be42a0d6a5d5b8dbe310a"},
+    {file = "interval_sdk-0.37.1.dev0.tar.gz", hash = "sha256:32c914ae0b5907668a812959aceef26d175a498a70190afe67d4e13cb500a91a"},
 ]
 
 [package.dependencies]
@@ -885,4 +885,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "5ff57b91a3c7a05a56beea18dff43038e2238b2c88f192cb580ca35d1ac30f32"
+content-hash = "9e90cbc38e06dd8ca894a19a99c9767c14aac3119ebb4bb3ca846ffa0fe68bc1"
