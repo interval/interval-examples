@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-interval-sdk = "^0.37.1.dev1"
+interval-sdk = "^0.37.1.dev3"
 python-dotenv = "^0.21.1"
 
 
