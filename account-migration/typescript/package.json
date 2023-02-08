@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "setup": "yarn install && prisma migrate dev",
-    "dev": "nodemon --watch src -e ts src/index.ts",
+    "dev": "nodemon --watch src --watch .env -e ts src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch src -e ts src/index.ts",
+    "dev": "nodemon --watch src --watch .env -e ts src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },

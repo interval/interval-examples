@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon --watch . index.js",
+    "dev": "nodemon --watch . --watch .env index.js",
     "start": "node index.js"
   },
   "dependencies": {
