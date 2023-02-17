@@ -1,14 +1,10 @@
-import Interval, { io } from '@interval/sdk';
+import path from 'path';
+import { Interval } from '@interval/sdk';
 import 'dotenv/config'; // loads environment variables from .env
 
 const interval = new Interval({
   apiKey: process.env.INTERVAL_KEY,
-  routes: {
-    hello_world: async () => {
-      const name = await io.input.text('Enter your name');
-      return `Hello, ${name}!`;
-    },
-  },
+  routesDirectory: path.resolve(__dirname, 'routes'),
 });
 
 interval.listen();
