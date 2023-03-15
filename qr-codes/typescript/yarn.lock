@@ -9,18 +9,19 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@interval/sdk@^0.37.0":
-  version "0.37.0"
-  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-0.37.0.tgz#2ecf76d16b2f3e16bde4d9c4482bb0b98948ef1e"
-  integrity sha512-5BzpoC5PIm9pgZfP7MRv+LwqRLSG8tWYlB3MSd3hQ6UnYeVRVr1Ga3wqKCY61wcK+qF6eRP44sl2QchSrhmlaQ==
+"@interval/sdk@^0.38.0":
+  version "0.38.0"
+  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-0.38.0.tgz#2d3716a9e6ad4f854c42ad278aa9684152ce7d2d"
+  integrity sha512-/jSxxR+GDqnpCovz33g/CYxINHdIaUq2UYwn1s4BH3Hu4fKPP+cXiRVQsyOEvtRXojK6njTsjkg5LJP1Rl1IWQ==
   dependencies:
     cross-fetch "^3.1.5"
     evt "^2.4.10"
-    node-datachannel "^0.4.0"
     superjson "^1.9.1"
     uuid "^9.0.0"
     ws "^8.4.1"
     zod "^3.13.3"
+  optionalDependencies:
+    node-datachannel "^0.4.0"
 
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.1.0"
