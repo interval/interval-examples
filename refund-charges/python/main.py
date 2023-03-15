@@ -53,7 +53,7 @@ async def refund_user(io: IO):
 
     ctx = ctx_var.get()
     await ctx.loading.start(
-        title="Refunding charges",
+        label="Refunding charges",
         items_in_queue=len(charges_to_refund),
     )
 

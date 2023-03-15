@@ -100,7 +100,7 @@ export default new Action(async () => {
   }
 
   ctx.loading.start({
-    title: `Editing issues for ${repo.full_name}`,
+    label: `Editing issues for ${repo.full_name}`,
     itemsInQueue: selectedIssues.length,
   });
 

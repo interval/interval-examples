@@ -32,7 +32,7 @@ module.exports = new Action(async () => {
   if (!confirmed) return 'Action canceled, no videos imported';
 
   ctx.loading.start({
-    title: 'Uploading videos...',
+    label: 'Uploading videos...',
     itemsInQueue: videos.length,
   });
 

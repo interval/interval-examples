@@ -21,7 +21,7 @@ export default new Action({
     );
 
     await ctx.loading.start({
-      title: 'Refunding charges',
+      label: 'Refunding charges',
       // Because we specified `itemsInQueue`, Interval will render a progress bar versus an indeterminate loading indicator.
       itemsInQueue: chargesToRefund.length,
     });
