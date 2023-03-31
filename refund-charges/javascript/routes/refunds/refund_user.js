@@ -16,6 +16,7 @@ module.exports = new Action({
     const chargesToRefund = await io.select.table(
       'Select one or more charges to refund',
       {
+        minSelections: 1,
         data: charges,
       }
     );

@@ -5,9 +5,12 @@ from interval_sdk import Interval, IO, action_ctx_var
 import whisper
 import numpy as np
 import ffmpeg
+from dotenv import load_dotenv
+
+load_dotenv()
 
 interval = Interval(
-    os.environ.get("INTERVAL_API_KEY"),
+    os.environ.get("INTERVAL_KEY"),
 )
 
 model = whisper.load_model("base")
@@ -40,7 +43,8 @@ async def transcribe_audio(io: IO):
     result = model.transcribe(audio)
 
     await io.group(
-        io.display.heading("Transcription results"), io.display.markdown(result["text"])
+        io.display.heading("Transcription results"),
+        io.display.markdown(result["text"]),
     )
 
     return "All done!"

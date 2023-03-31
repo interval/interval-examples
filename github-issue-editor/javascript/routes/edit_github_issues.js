@@ -24,6 +24,12 @@ async function githubAPI(method, url, body = null) {
 }
 
 module.exports = new Action(async () => {
+  if (!process.env.GITHUB_USER || !process.env.GITHUB_KEY) {
+    throw new Error(
+      'Must specify GITHUB_USER and GITHUB_KEY environment variables.'
+    );
+  }
+
   const repos = await githubAPI(
     'GET',
     'https://api.github.com/user/repos?affiliation=owner'

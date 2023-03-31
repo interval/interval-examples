@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@brillout/import@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@brillout/import/-/import-0.2.2.tgz#1b2d3012830d397ecd3eddef3ad4a23984cd0dd8"
+  integrity sha512-JatRCkrFxss1iwRrFlnY3yPFyD2yGWIeFprMH++TmZ+wqnRlwfN0ECDJea0EyagSGXlb2CUxFIH3dBMBiV05sw==
+
 "@faker-js/faker@^6.3.1":
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.3.1.tgz#1ae963dd40405450a2945408cba553e1afa3e0fb"
@@ -15,11 +20,12 @@
     "@faker-js/faker" "^6.3.1"
     stripe "^9.1.0"
 
-"@interval/sdk@^0.38.0":
-  version "0.38.0"
-  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-0.38.0.tgz#2d3716a9e6ad4f854c42ad278aa9684152ce7d2d"
-  integrity sha512-/jSxxR+GDqnpCovz33g/CYxINHdIaUq2UYwn1s4BH3Hu4fKPP+cXiRVQsyOEvtRXojK6njTsjkg5LJP1Rl1IWQ==
+"@interval/sdk@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-1.0.0.tgz#6da88456a01c8a8524dac4e55c1f53f7eaa72e09"
+  integrity sha512-1QOEPzSeT09VVPgdF8SqaCx7Gp0hddnFLs1L1ppN85OP2z+YE/Z/MRd4H8F3UM33Z3OUjU7CYkq7o7h7owsbqQ==
   dependencies:
+    "@brillout/import" "^0.2.2"
     cross-fetch "^3.1.5"
     evt "^2.4.10"
     superjson "^1.9.1"

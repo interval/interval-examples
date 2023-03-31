@@ -49,6 +49,7 @@ async def refund_user(io: IO):
     charges_to_refund = await io.select.table(
         "Select one or more charges to refund",
         data=charges,
+        min_selections=1,
     )
 
     ctx = ctx_var.get()
