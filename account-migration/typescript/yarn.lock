@@ -19,10 +19,10 @@
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-7.6.0.tgz#9ea331766084288634a9247fcd8b84f16ff4ba07"
   integrity sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==
 
-"@interval/sdk@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-1.0.0.tgz#6da88456a01c8a8524dac4e55c1f53f7eaa72e09"
-  integrity sha512-1QOEPzSeT09VVPgdF8SqaCx7Gp0hddnFLs1L1ppN85OP2z+YE/Z/MRd4H8F3UM33Z3OUjU7CYkq7o7h7owsbqQ==
+"@interval/sdk@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-1.1.0.tgz#560b65b73469cbaabbebe2ec3b9326fcb03db5c2"
+  integrity sha512-tVYWK96kTTioQmvQchCFfEg4dFCvD7q1xmKmgeb8splis995H2fZ47XELhwii15pMqkUOFgK9qUbFTmv8GNaDg==
   dependencies:
     "@brillout/import" "^0.2.2"
     cross-fetch "^3.1.5"

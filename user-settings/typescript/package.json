@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@faker-js/faker": "^7.3.0",
-    "@interval/sdk": "^1.0.0",
+    "@interval/sdk": "^1.1.0",
     "dotenv": "^16.0.1"
   },
   "devDependencies": {

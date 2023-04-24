@@ -15,7 +15,7 @@ torch = "^1.13.1"
 tqdm = "^4.64.1"
 more-itertools = "^9.0.0"
 transformers = ">=4.19.0"
-interval-sdk = "^1.0.0"
+interval-sdk = "^1.1.0"
 python-dotenv = "^1.0.0"
 
 
