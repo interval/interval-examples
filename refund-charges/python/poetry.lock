@@ -360,14 +360,14 @@ files = [
 
 [[package]]
 name = "interval-sdk"
-version = "1.1.0"
+version = "1.2.0"
 description = "The frontendless framework for high growth companies. Interval automatically generates apps by inlining the UI in your backend code. It's a faster and more maintainable way to build internal tools, rapid prototypes, and more."
 category = "main"
 optional = false
 python-versions = ">=3.9,<4.0"
 files = [
-    {file = "interval_sdk-1.1.0-py3-none-any.whl", hash = "sha256:22cd59affa3cffe30b661ec35c9e4ac298b33de362f7158b420ddbb440c14c22"},
-    {file = "interval_sdk-1.1.0.tar.gz", hash = "sha256:5a331ec4ac4ff7f048ecc7e3c193f4b645f2063025828f79ae8325bd1470f1dc"},
+    {file = "interval_sdk-1.2.0-py3-none-any.whl", hash = "sha256:81903693a479ebbae33c0091987725473cde10a80d7d6852a66584986f81cb01"},
+    {file = "interval_sdk-1.2.0.tar.gz", hash = "sha256:5b9fde3508f4d5eb645634ba0fd18a59d532b6eb00374cc46e2df428edd151e1"},
 ]
 
 [package.dependencies]
@@ -885,4 +885,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "c4527faaf7cb19789b9c92bc5c67c2dcbb7256bdfbe364fc357f9948d1452246"
+content-hash = "44177412b8b6bd9cec46956eee8535688b5ebb920bce841de1e5ad8594a67e8b"

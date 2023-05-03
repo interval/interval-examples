@@ -14,10 +14,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@interval/sdk@^1.1.1":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-1.1.1.tgz#4e84a0f983ec6ce1834fbbea0c6c50ec45a35622"
-  integrity sha512-2p+fcxNiw/yghQSx8YaO01eYoj61rgX0NKE01jbsnuOvlgmghgUxMXJWmKZHpOCRcAX3Pc/ebh7nllTZ4tlNhA==
+"@interval/sdk@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-1.2.0.tgz#e337a6aa3bc7e352e3a8616b1b2f807f74926b9a"
+  integrity sha512-ynkaG8O1LzCtgmbFjY4BIS9aOeaZ9rIcndjHz15pxUmoyMS6R+anIdU5Zs2INngByCPtKK9+Dp30/8MgFjY6kg==
   dependencies:
     "@brillout/import" "^0.2.2"
     cross-fetch "^3.1.5"
