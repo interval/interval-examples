@@ -3,6 +3,7 @@
     "target": "esnext",
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "strictNullChecks": true,
     "module": "commonjs",
     "rootDir": "./src",
     "outDir": "./dist"
