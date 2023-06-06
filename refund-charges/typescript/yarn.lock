@@ -27,10 +27,10 @@
     "@faker-js/faker" "^6.3.1"
     stripe "^9.1.0"
 
-"@interval/sdk@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-1.2.0.tgz#e337a6aa3bc7e352e3a8616b1b2f807f74926b9a"
-  integrity sha512-ynkaG8O1LzCtgmbFjY4BIS9aOeaZ9rIcndjHz15pxUmoyMS6R+anIdU5Zs2INngByCPtKK9+Dp30/8MgFjY6kg==
+"@interval/sdk@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@interval/sdk/-/sdk-1.4.0.tgz#e084832a52951f66751da333c261a7dbe6effe0a"
+  integrity sha512-ywKvn0LOEsOiKARIx3WOeIXVxtaH4YWywnh5SbmctwBA1pWTJvA+m0xruRkLbyahyW/UFJNMb7GhFPKukhGr7A==
   dependencies:
     "@brillout/import" "^0.2.2"
     cross-fetch "^3.1.5"
